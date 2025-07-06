@@ -4,8 +4,10 @@
 
 > 🚨 Built to simulate the defensive systems used in modern cybersecurity-aware applications.
 
-![Build](https://github.com/nickcuenca/vaultwatch/actions/workflows/python-app.yml/badge.svg)
-[![codecov](https://codecov.io/gh/nickcuenca/vaultwatch/branch/main/graph/badge.svg)](https://codecov.io/gh/nickcuenca/vaultwatch)
+![Tests](https://github.com/nickcuenca/vaultwatch/actions/workflows/tests.yml/badge.svg)
+<!-- [![codecov](https://codecov.io/gh/nickcuenca/vaultwatch/branch/main/graph/badge.svg)](https://codecov.io/gh/nickcuenca/vaultwatch) -->
+[![codecov](https://codecov.io/gh/nickcuenca/vaultwatch/graph/badge.svg?token=5JkmaxNxVk)](https://codecov.io/gh/nickcuenca/vaultwatch)
+
 
 ---
 
