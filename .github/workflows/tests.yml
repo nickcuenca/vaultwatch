@@ -32,6 +32,8 @@ jobs:
 
       - name: Run tests with coverage
         run: |
+          # ✅ Add the root directory to PYTHONPATH
+          export PYTHONPATH="$PWD"
           pytest --cov=app --cov-report=xml --disable-warnings
 
       - name: Upload coverage to Codecov
