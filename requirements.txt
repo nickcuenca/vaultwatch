@@ -10,6 +10,7 @@ alembic
 python-dotenv
 celery
 redis
+boto3
 
 # Testing
 pytest
