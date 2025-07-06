@@ -5,7 +5,7 @@
 > 🚨 Built to simulate the defensive systems used in modern cybersecurity-aware applications.
 
 ![Build](https://github.com/nickcuenca/vaultwatch/actions/workflows/python-app.yml/badge.svg)
-![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen) <!-- Optional: replace with Codecov badge if used -->
+[![codecov](https://codecov.io/gh/nickcuenca/vaultwatch/branch/main/graph/badge.svg)](https://codecov.io/gh/nickcuenca/vaultwatch)
 
 ---
 
@@ -34,6 +34,19 @@
 
 ---
 
+## 🚀 Getting Started
+
+Clone the repo, install dependencies, and launch:
+
+```bash
+git clone https://github.com/nickcuenca/vaultwatch.git
+cd vaultwatch
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+---
+
 ## ✅ Testing
 
 - Built with `pytest` and `httpx` for full test coverage  
@@ -43,3 +56,4 @@
 To run tests locally:
 ```bash
 pytest -v --cov=app
+```
