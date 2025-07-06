@@ -9,3 +9,4 @@ pytest
 pytest-asyncio
 pytest-cov
 psycopg2-binary
+pydantic[email]
